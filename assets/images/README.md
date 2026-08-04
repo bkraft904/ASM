@@ -12,26 +12,19 @@
 | `fleet-hypercar.jpg` | Fleet card — Endurance prototype |
 | `transporter.jpg` | Operations section — race transporter |
 | `tech/tech-*.jpg` | Engineering section — 8 component renders pulled from the PDF manuals |
+| `facility-showroom.jpg` | Facility gallery — two-story showroom |
+| `facility-workshop-bays.jpg` | Facility gallery — 5-bay workshop |
+| `facility-lounge.jpg` | Facility gallery — lounge / hospitality |
+| `facility-workshop-detail.jpg` | Facility gallery — single-bay detail shop |
+| `facility-hq-exterior.jpg` | Facility gallery — HQ exterior |
 
 All photos are compressed JPEGs (resized + re-encoded from the original
-uploads) to keep the page light on mobile — originals were ~19MB total,
-now ~2MB.
-
-## Still needed
-
-Drop these into this folder with the exact filenames below and they'll swap in
-automatically on refresh — no code changes needed.
-
-| Filename | Used for | Recommended size |
-|---|---|---|
-| `facility-showroom.jpg` | Facility gallery — two-story showroom | 1600×1000 |
-| `facility-workshop-bays.jpg` | Facility gallery — 5-bay workshop | 1600×1000 |
-| `facility-lounge.jpg` | Facility gallery — lounge / hospitality | 1600×1000 |
-| `facility-workshop-detail.jpg` | Facility gallery — single-bay detail shop | 1600×1000 |
-| `facility-hq-exterior.jpg` | Facility gallery — HQ exterior | 1600×1000 |
+uploads) to keep the page light on mobile — total image payload is ~2.5MB
+across the whole site, down from ~45MB of raw uploads.
 
 ## Source docs
 
-`assets/docs/` holds the two PDF manuals the fleet/engineering photos and
-component renders were pulled from. They're linked from the Engineering
-section as downloadable references.
+`assets/docs/` holds the PDF manuals the fleet/engineering/facility photos
+were pulled from (two engineering manuals + the room/flooring schematics
+pack). The two engineering ones are linked from the Engineering section as
+downloadable references.
