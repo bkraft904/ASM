@@ -5,13 +5,17 @@
 | Filename | Used for |
 |---|---|
 | `logo.png` / `logo-mark.png` | Full logo / cropped nav+footer wordmark |
-| `fleet-gt3.png` | Fleet card — BMW M4 GT3 (also doubles as part of the hero) |
-| `fleet-gt3rs.png` | Fleet card — Porsche 911 GT3 RS (also used as the homepage hero) |
-| `fleet-touring.png` | Fleet card — Audi RS6 Avant |
-| `fleet-svj.png` | Fleet card — Lamborghini Aventador SVJ |
-| `fleet-hypercar.png` | Fleet card — Endurance prototype |
-| `transporter.png` | Operations section — race transporter |
-| `tech/tech-*.png` | Engineering section — 8 component renders pulled from the PDF manuals |
+| `fleet-gt3.jpg` | Fleet card — BMW M4 GT3 |
+| `fleet-gt3rs.jpg` | Fleet card — Porsche 911 GT3 RS (also used as the homepage hero) |
+| `fleet-touring.jpg` | Fleet card — Audi RS6 Avant |
+| `fleet-svj.jpg` | Fleet card — Lamborghini Aventador SVJ |
+| `fleet-hypercar.jpg` | Fleet card — Endurance prototype |
+| `transporter.jpg` | Operations section — race transporter |
+| `tech/tech-*.jpg` | Engineering section — 8 component renders pulled from the PDF manuals |
+
+All photos are compressed JPEGs (resized + re-encoded from the original
+uploads) to keep the page light on mobile — originals were ~19MB total,
+now ~2MB.
 
 ## Still needed
 

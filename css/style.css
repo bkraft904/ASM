@@ -862,9 +862,34 @@ section { position: relative; }
   .tech-grid { grid-template-columns: minmax(0, 1fr); }
   .tech-item--wide { grid-column: span 1; }
   .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .transporter-banner .media { aspect-ratio: 4/5; height: auto; }
   .transporter-text { position: static; transform: none; max-width: 100%; margin-top: 1.25rem; }
   .transporter-scrim { display: none; }
+
+  /* Show full photos on mobile instead of cropping to a fixed box */
+  .fleet-card .media,
+  .facility-item .media,
+  .facility-item--wide .media,
+  .transporter-banner .media {
+    aspect-ratio: auto;
+    height: auto;
+  }
+  .fleet-card .media img,
+  .facility-item .media img,
+  .facility-item--wide .media img,
+  .transporter-banner .media img {
+    position: static;
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* No image to size from yet — keep a placeholder box instead of collapsing to 0 height */
+  .fleet-card .media.media--missing,
+  .facility-item .media.media--missing,
+  .facility-item--wide .media.media--missing,
+  .transporter-banner .media.media--missing {
+    aspect-ratio: 4/3;
+    height: auto;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
