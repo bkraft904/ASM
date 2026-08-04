@@ -19,15 +19,12 @@
 <header class="site-header" id="siteHeader">
   <div class="header-inner">
     <a href="#top" class="brand">
-      <span class="brand-mark">AS</span>
-      <span class="brand-word">
-        <strong>AERO SAINT</strong>
-        <em>MOTORSPORT</em>
-      </span>
+      <img class="brand-logo" src="assets/images/logo-mark.png" alt="Aero Saint Motorsport">
     </a>
 
     <nav class="main-nav" id="mainNav">
       <a href="#fleet" data-nav>Fleet</a>
+      <a href="#engineering" data-nav>Engineering</a>
       <a href="#facility" data-nav>Facility</a>
       <a href="#team" data-nav>Team</a>
       <a href="#sponsors" data-nav>Partners</a>
@@ -47,7 +44,7 @@
   <!-- ================= HERO ================= -->
   <section class="hero" id="hero">
     <div class="media hero-media" data-label="hero-bg.jpg — 1920×1080">
-      <img src="assets/images/hero-bg.jpg" alt="Aero Saint Motorsport headquarters" onerror="this.closest('.media').classList.add('media--missing')">
+      <img src="assets/images/fleet-gt3rs.png" alt="ASM Porsche 911 GT3 RS outside headquarters" onerror="this.closest('.media').classList.add('media--missing')">
     </div>
     <div class="hero-scrim"></div>
     <span class="hero-numeral" aria-hidden="true">27</span>
@@ -125,7 +122,7 @@
     <div class="fleet-grid">
       <article class="fleet-card reveal">
         <div class="media" data-label="fleet-gt3.jpg — 1400×900">
-          <img src="assets/images/fleet-gt3.jpg" alt="BMW M4 GT3 in ASM livery" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+          <img src="assets/images/fleet-gt3.png" alt="BMW M4 GT3 in ASM livery" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
         </div>
         <div class="fleet-card-body">
           <span class="fleet-tag">GT3</span>
@@ -135,8 +132,19 @@
       </article>
 
       <article class="fleet-card reveal">
+        <div class="media" data-label="fleet-gt3rs.jpg — 1400×900">
+          <img src="assets/images/fleet-gt3rs.png" alt="Porsche 911 GT3 RS in ASM livery" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+        </div>
+        <div class="fleet-card-body">
+          <span class="fleet-tag">TRACK</span>
+          <h3>Porsche 911 GT3 RS</h3>
+          <p>Our track-day and test-and-development car, built to shake down setup changes fast.</p>
+        </div>
+      </article>
+
+      <article class="fleet-card reveal">
         <div class="media" data-label="fleet-touring.jpg — 1400×900">
-          <img src="assets/images/fleet-touring.jpg" alt="Audi RS6 Avant in ASM livery" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+          <img src="assets/images/fleet-touring.png" alt="Audi RS6 Avant in ASM livery" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
         </div>
         <div class="fleet-card-body">
           <span class="fleet-tag">TOURING</span>
@@ -146,15 +154,98 @@
       </article>
 
       <article class="fleet-card reveal">
+        <div class="media" data-label="fleet-svj.jpg — 1400×900">
+          <img src="assets/images/fleet-svj.png" alt="Lamborghini Aventador SVJ in ASM livery" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+        </div>
+        <div class="fleet-card-body">
+          <span class="fleet-tag">SHOWCASE</span>
+          <h3>Lamborghini Aventador SVJ</h3>
+          <p>Our halo road car — sponsor demos, activations, and track-day showcase runs.</p>
+        </div>
+      </article>
+
+      <article class="fleet-card reveal">
         <div class="media" data-label="fleet-hypercar.jpg — 1400×900">
-          <img src="assets/images/fleet-hypercar.jpg" alt="ASM hypercar prototype" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+          <img src="assets/images/fleet-hypercar.png" alt="ASM endurance prototype hypercar" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
         </div>
         <div class="fleet-card-body">
           <span class="fleet-tag">PROTOTYPE</span>
-          <h3>Endurance Hypercar</h3>
-          <p>Our top-class Le Mans-style prototype, built for outright pace over 24 hours.</p>
+          <h3>Endurance Prototype</h3>
+          <p>Our top-class Le Mans-style hypercar, built for outright pace over 24 hours.</p>
         </div>
       </article>
+    </div>
+  </section>
+
+  <!-- ================= ENGINEERING ================= -->
+  <section class="tech" id="engineering">
+    <div class="section-head reveal">
+      <p class="eyebrow">Engineering</p>
+      <h2>Built in-house, down to the bolt.</h2>
+      <p class="section-sub">From aero to drivetrain, our components are designed, machined, and validated by our own engineering group before they ever touch a race car.</p>
+    </div>
+
+    <div class="tech-grid">
+      <div class="tech-item tech-item--wide reveal">
+        <div class="media" data-label="tech-cornering.jpg">
+          <img src="assets/images/tech/tech-cornering.png" alt="ASM integrated cornering package — suspension, upright, and wheel assembly" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+        </div>
+        <p class="tech-caption">Integrated Cornering Package</p>
+      </div>
+
+      <div class="tech-item reveal">
+        <div class="media" data-label="tech-wing.jpg">
+          <img src="assets/images/tech/tech-wing.png" alt="ASM carbon racing wing" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+        </div>
+        <p class="tech-caption">Instrumented Racing Wing</p>
+      </div>
+
+      <div class="tech-item reveal">
+        <div class="media" data-label="tech-brake-disc.jpg">
+          <img src="assets/images/tech/tech-brake-disc.png" alt="ASM floating brake disc" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+        </div>
+        <p class="tech-caption">Floating Brake Disc</p>
+      </div>
+
+      <div class="tech-item reveal">
+        <div class="media" data-label="tech-wheel.jpg">
+          <img src="assets/images/tech/tech-wheel.png" alt="ASM center-lock forged wheel" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+        </div>
+        <p class="tech-caption">Center-Lock Forged Wheel</p>
+      </div>
+
+      <div class="tech-item reveal">
+        <div class="media" data-label="tech-exhaust.jpg">
+          <img src="assets/images/tech/tech-exhaust.png" alt="ASM titanium exhaust system" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+        </div>
+        <p class="tech-caption">Titanium Exhaust</p>
+      </div>
+
+      <div class="tech-item reveal">
+        <div class="media" data-label="tech-cooling.jpg">
+          <img src="assets/images/tech/tech-cooling.png" alt="ASM cooling architecture module" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+        </div>
+        <p class="tech-caption">Thermal Cooling Architecture</p>
+      </div>
+
+      <div class="tech-item reveal">
+        <div class="media" data-label="tech-telemetry.jpg">
+          <img src="assets/images/tech/tech-telemetry.png" alt="ASM telemetry and component passport unit" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+        </div>
+        <p class="tech-caption">Telemetry &amp; Data Logging</p>
+      </div>
+
+      <div class="tech-item reveal">
+        <div class="media" data-label="tech-diffuser.jpg">
+          <img src="assets/images/tech/tech-diffuser.png" alt="ASM splitter, floor, and diffuser package" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+        </div>
+        <p class="tech-caption">Splitter, Floor &amp; Diffuser</p>
+      </div>
+    </div>
+
+    <div class="tech-cta reveal">
+      <a href="assets/docs/Proprietary_Performance_Systems_Engineering_Concept_Manual.pdf" class="btn btn-outline" target="_blank" rel="noopener">Engineering Concept Manual (PDF)</a>
+      <a href="assets/docs/Diagram_To_Finished_Product_Manual.pdf" class="btn btn-outline" target="_blank" rel="noopener">Diagram-to-Product Manual (PDF)</a>
     </div>
   </section>
 
@@ -205,7 +296,7 @@
 
     <div class="transporter-banner reveal">
       <div class="media" data-label="transporter.jpg — 1920×1080">
-        <img src="assets/images/transporter.jpg" alt="ASM race transporter" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
+        <img src="assets/images/transporter.png" alt="ASM race transporter" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
       </div>
       <div class="transporter-scrim"></div>
       <div class="transporter-text">
@@ -294,14 +385,11 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <a href="#top" class="brand brand--footer">
-      <span class="brand-mark">AS</span>
-      <span class="brand-word">
-        <strong>AERO SAINT</strong>
-        <em>MOTORSPORT</em>
-      </span>
+      <img class="brand-logo" src="assets/images/logo-mark.png" alt="Aero Saint Motorsport">
     </a>
     <nav class="footer-nav">
       <a href="#fleet">Fleet</a>
+      <a href="#engineering">Engineering</a>
       <a href="#facility">Facility</a>
       <a href="#team">Team</a>
       <a href="#sponsors">Partners</a>
