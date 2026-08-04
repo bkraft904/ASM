@@ -75,8 +75,8 @@
 
   /* ---------- Team roster (edit this array to add real people) ---------- */
   const ROSTER = [
-    { name: 'Add Name', role: 'Team Principal' },
-    { name: 'Add Name', role: 'Lead Driver — No. 27' },
+    { name: 'Benson Kraft', role: 'Founder' },
+    { name: 'Add Name', role: 'Lead Driver — No. 17' },
     { name: 'Add Name', role: 'Race Engineer' },
     { name: 'Add Name', role: 'Crew Chief' },
   ];
