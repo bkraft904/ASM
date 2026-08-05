@@ -693,6 +693,57 @@ section { position: relative; }
 .sponsor-cta p { color: var(--silver); font-size: 1.05rem; }
 
 /* =========================================================
+   Merch
+   ========================================================= */
+
+.merch { padding: clamp(4rem, 8vw, 7rem) 0; }
+.merch-grid {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--gap);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+.merch-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  transition: transform .45s var(--ease), border-color .45s var(--ease);
+  flex: 1 1 calc((100% - 2 * var(--gap)) / 3);
+  min-width: 260px;
+}
+.merch-card:hover { transform: translateY(-6px); border-color: var(--border-strong); }
+.merch-card .media {
+  aspect-ratio: 3/2;
+  height: auto;
+  background: linear-gradient(135deg, #141416, #0a0a0b);
+}
+.merch-card .media img { object-fit: contain; padding: 1rem; }
+.merch-card:hover .media img { transform: scale(1.05); }
+.merch-card-body { padding: 1.5rem; }
+.merch-card-body h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.merch-card-body p {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.merch-link {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--red-bright);
+  transition: color .3s var(--ease);
+}
+.merch-link:hover { color: var(--white); }
+
+/* =========================================================
    Contact
    ========================================================= */
 
@@ -841,6 +892,7 @@ section { position: relative; }
   .stat:nth-child(3) { border-left: none; }
 
   .fleet-card { flex-basis: calc((100% - var(--gap)) / 2); }
+  .merch-card { flex-basis: calc((100% - var(--gap)) / 2); }
   .facility-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .facility-item--wide { grid-column: span 2; }
   .tech-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -857,6 +909,7 @@ section { position: relative; }
 
 @media (max-width: 640px) {
   .fleet-card { flex-basis: 100%; }
+  .merch-card { flex-basis: 100%; }
   .facility-grid { grid-template-columns: minmax(0, 1fr); }
   .facility-item--wide { grid-column: span 1; }
   .tech-grid { grid-template-columns: minmax(0, 1fr); }

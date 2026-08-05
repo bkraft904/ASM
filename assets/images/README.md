@@ -18,6 +18,19 @@
 | `facility-workshop-detail.jpg` | Facility gallery — single-bay detail shop |
 | `facility-hq-exterior.jpg` | Facility gallery — HQ exterior |
 
+## Still needed
+
+Drop these into `assets/images/merch/` with the exact filenames below and
+they'll swap in automatically on refresh — no code changes needed.
+
+| Filename | Used for |
+|---|---|
+| `merch/merch-tumbler.jpg` | Merch card — insulated tumbler (both sizes) |
+| `merch/merch-hoodie.jpg` | Merch card — team hoodie (front + back) |
+| `merch/merch-polo.jpg` | Merch card — team polo (front + back) |
+| `merch/merch-tee.jpg` | Merch card — team tee (front + back) |
+| `merch/merch-keychain.jpg` | Merch card — keychain |
+
 All photos are compressed JPEGs (resized + re-encoded from the original
 uploads) to keep the page light on mobile — total image payload is ~2.5MB
 across the whole site, down from ~45MB of raw uploads.
