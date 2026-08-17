@@ -1129,6 +1129,13 @@ body.cart-open { overflow: hidden; }
   padding: clamp(7rem, 12vw, 9rem) var(--gap) clamp(4rem, 8vw, 6rem);
 }
 
+.shop-index-top {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: clamp(7rem, 12vw, 9rem) var(--gap) 0;
+}
+.merch--page { padding: clamp(2rem, 4vw, 3rem) 0 clamp(4rem, 8vw, 7rem); }
+
 .back-link {
   display: inline-flex;
   align-items: center;

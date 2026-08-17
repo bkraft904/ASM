@@ -5,6 +5,8 @@
   const TEAM_EMAIL = 'team@aerosaintmotorsport.com';
 
   const getProducts = () => window.ASM_PRODUCTS || {};
+  const rootPrefix = () => window.ASM_ROOT_PREFIX || '';
+  const productImage = (p) => (p && p.image ? rootPrefix() + p.image : '');
 
   function getCart() {
     try {
@@ -109,7 +111,7 @@
           const lineTotal = (p.price || 0) * item.qty;
           return `
             <div class="cart-item">
-              <img src="${p.image || ''}" alt="${p.name || item.id}">
+              <img src="${productImage(p)}" alt="${p.name || item.id}">
               <div class="cart-item-body">
                 <h4>${p.name || item.id}</h4>
                 ${item.size ? `<p class="cart-item-size">Size: ${item.size}</p>` : ''}
