@@ -61,6 +61,14 @@
 
     <a href="#contact" class="btn btn-outline nav-cta">Partnerships and Inquiries</a>
 
+    <button class="cart-toggle" aria-label="Open cart">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 8h12l-1 12H7L6 8z"></path>
+        <path d="M9 8V6a3 3 0 0 1 6 0v2"></path>
+      </svg>
+      <span class="cart-count" hidden>0</span>
+    </button>
+
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -379,57 +387,57 @@
 
     <div class="merch-grid">
       <article class="merch-card reveal">
-        <div class="media" data-label="merch-tumbler.jpg">
+        <a href="shop/tumbler.html" class="media" data-label="merch-tumbler.jpg">
           <img src="assets/images/merch/merch-tumbler.jpg" alt="ASM insulated tumbler, two sizes" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
-        </div>
+        </a>
         <div class="merch-card-body">
           <h3>Insulated Tumbler</h3>
           <p>Stainless steel, laser-etched ASM wordmark. Two sizes.</p>
-          <a href="#contact" class="merch-link">Inquire to order &rarr;</a>
+          <a href="shop/tumbler.html" class="merch-link">View product &rarr;</a>
         </div>
       </article>
 
       <article class="merch-card reveal">
-        <div class="media" data-label="merch-hoodie.jpg">
+        <a href="shop/hoodie.html" class="media" data-label="merch-hoodie.jpg">
           <img src="assets/images/merch/merch-hoodie.jpg" alt="ASM team hoodie, front and back" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
-        </div>
+        </a>
         <div class="merch-card-body">
           <h3>Team Hoodie</h3>
           <p>Heavyweight fleece with sponsor arm prints and full back graphic.</p>
-          <a href="#contact" class="merch-link">Inquire to order &rarr;</a>
+          <a href="shop/hoodie.html" class="merch-link">View product &rarr;</a>
         </div>
       </article>
 
       <article class="merch-card reveal">
-        <div class="media" data-label="merch-polo.jpg">
+        <a href="shop/polo.html" class="media" data-label="merch-polo.jpg">
           <img src="assets/images/merch/merch-polo.jpg" alt="ASM team polo, front and back" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
-        </div>
+        </a>
         <div class="merch-card-body">
           <h3>Team Polo</h3>
           <p>Paddock-ready polo with full sponsor lockup on the chest.</p>
-          <a href="#contact" class="merch-link">Inquire to order &rarr;</a>
+          <a href="shop/polo.html" class="merch-link">View product &rarr;</a>
         </div>
       </article>
 
       <article class="merch-card reveal">
-        <div class="media" data-label="merch-tee.jpg">
+        <a href="shop/tee.html" class="media" data-label="merch-tee.jpg">
           <img src="assets/images/merch/merch-tee.jpg" alt="ASM team t-shirt, front and back" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
-        </div>
+        </a>
         <div class="merch-card-body">
           <h3>Team Tee</h3>
           <p>Everyday cotton tee with the full ASM race graphic on the back.</p>
-          <a href="#contact" class="merch-link">Inquire to order &rarr;</a>
+          <a href="shop/tee.html" class="merch-link">View product &rarr;</a>
         </div>
       </article>
 
       <article class="merch-card reveal">
-        <div class="media" data-label="merch-keychain.jpg">
+        <a href="shop/keychain.html" class="media" data-label="merch-keychain.jpg">
           <img src="assets/images/merch/merch-keychain.jpg" alt="ASM metal keychain and carbon-look tag" loading="lazy" onerror="this.closest('.media').classList.add('media--missing')">
-        </div>
+        </a>
         <div class="merch-card-body">
           <h3>Keychain</h3>
           <p>Metal ASM badge keychain with a carbon-finish tag.</p>
-          <a href="#contact" class="merch-link">Inquire to order &rarr;</a>
+          <a href="shop/keychain.html" class="merch-link">View product &rarr;</a>
         </div>
       </article>
     </div>
@@ -494,6 +502,8 @@
   </div>
 </footer>
 
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
