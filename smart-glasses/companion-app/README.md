@@ -1,15 +1,15 @@
 # companion-app
 
 The phone app that pairs with the glasses over BLE, captures camera frames,
-calls `ai-pipeline/` for the AI response, and pushes the result back to the
+calls `../ai-pipeline/` for the AI response, and pushes the result back to the
 glasses for rendering.
 
 ## Not scaffolded yet — on purpose
 
-Unlike `ai-pipeline/`, this one genuinely can't be built platform-agnostic:
+Unlike `../ai-pipeline/`, this one genuinely can't be built platform-agnostic:
 BLE GATT profiles and the companion SDK are vendor-specific, so the right
 starting point depends on which ODM reference design gets picked (see
-`docs/hardware-sourcing.md`). Scaffolding a React Native or Flutter shell now
+`../docs/hardware-sourcing.md`). Scaffolding a React Native or Flutter shell now
 would mean throwing it away once a vendor's native SDK requirements are known.
 
 ## Decision to make once an ODM is picked

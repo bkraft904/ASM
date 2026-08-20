@@ -9,11 +9,11 @@ glasses it's talking to. It takes bytes in (a JPEG frame + a query string) and
 returns a `HudResponse` out. Wiring it to real glasses is two integration
 points, both stubbed:
 
-- **Frame capture** — owned by `companion-app/`, since it's normally the
+- **Frame capture** — owned by `../companion-app/`, since it's normally the
   phone's BLE link to the glasses' camera, not this service.
 - **Rendering** — `src/ble_link.py` defines the `GlassesLink` interface;
   `LoggingGlassesLink` is a stand-in until an ODM is picked (see
-  `docs/hardware-sourcing.md`) and its BLE GATT profile / SDK is known.
+  `../docs/hardware-sourcing.md`) and its BLE GATT profile / SDK is known.
 
 ## Running it
 
